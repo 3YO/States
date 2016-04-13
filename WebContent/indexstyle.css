@@ -1,0 +1,253 @@
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+ background:url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png') repeat;
+  font-family: "Open Sans",  Impact;
+}
+.area{
+  text-align:center;
+  font-size:6.5em;
+  color:#fff;
+  letter-spacing: -2px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur 2.0s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
+
+.bruno {
+	text-decoration: none;
+	color: white;
+}
+
+
+ */
+
+
+
+/* CSS */
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: white;	
+	background-image: url(http://www.maricopa.gov/veterans/Images/usa-flag-large-trans.png);
+ 	background-size: 2000px	1500px;
+ 	background-repeat: no-repeat;
+}
+
+.goback:hover {font-size:800%;}
+.goback {text-decoration: none; }
+.goback {font-size: 20px}
+.goback {color: #000000;}
+.goback {text-shadow: 1px 1px 5px #888}
+
+.gobackdiv {
+text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  padding: 60px 0px 40px 0px;
+            
+  	
+}
+
+/* header {
+	height: 100px;
+	background: #F0F0F0;
+	position:fixed;
+	width:100%;
+	opacity: 0.8;
+    filter: alpha(opacity=60);
+    top: 0px;
+        border-radius: 25px;
+     
+    
+} */
+
+footer {
+	height: 100px;
+	background: #F0F0F0;
+	position:fixed;
+	width:100%;
+	opacity: 0.8;
+    filter: alpha(opacity=60);
+    bottom: 0px;
+    border-radius: 25px; 
+    text-shadow: 1px 1px 5px #888      	
+}
+
+footer > p {
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+}
+/* index.html */
+
+#choose {
+  width: 450px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+  box-shadow: 1px 1px 5px #888;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  padding: 60px 0px 40px 0px;
+      
+  	
+ 
+}
+
+.one:hover {font-size:200%;}
+.one {text-decoration: none; }
+.one {font-size: 20px}
+.one {color: #000000;}
+.one {text-shadow: 1px 1px 5px #888}
+
+.two:hover {font-size:200%;}
+.two {text-decoration: none; }
+.two {font-size: 20px}
+.two {color: #000000;}
+.two {text-shadow: 1px 1px 5px #888}
+
+
+
+.three:hover {font-size:200%;}
+.three {text-decoration: none; }
+.three {font-size: 20px}
+.three {color: #000000;}
+.three {text-shadow: 1px 1px 5px #888}
+.three {text-decoration: line-through;}
+
+#nonewstate {
+	font-size: 15px;
+}
+
+/* end of index.html */
+
+/* result.jsp*/
+#stateInfo {
+	text-align: center;
+	list-style-type: none;
+}
+
+#stateInfo li {
+	
+	display: inline;
+	text-transform: uppercase;
+}
+
+.resultdiv {
+  width: 300px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+  box-shadow: 1px 1px 5px #888;
+  text-align: center;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 5px #888;	
+  border-radius: 25px;
+  padding: 0px 45px 0px 20px;
+}
+
+#mapPicture {
+  position: fixed;
+  top: 45%;
+  left: 8%;
+ }
+#googleMap {
+	
+  position: absolute;
+  top: 45%;
+  left: 58%;
+ }
+/* end of result.jsp*/
+
+
+
+/* nameForm.html*/
+
+.nameFormDiv {
+  width: 450px;
+  background-color: #ffffff;
+      padding: 40px 0px 50px 0px;
+  
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+  box-shadow: 1px 1px 5px #888;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 5px #888;	
+      border-radius: 25px;
+  
+  }
+  
+/* end of nameForm.html*/
+
+
+
+
+
+
+/* abbrevForm.html*/
+
+.abbrevFormDiv {
+  width: 450px;
+  background-color: #ffffff;
+      padding: 40px 0px 50px 0px;
+  
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+  box-shadow: 1px 1px 5px #888;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 5px #888;
+      border-radius: 25px;
+  	
+  }
+
+
+
+/* end of abbrevForm.html*/
+
